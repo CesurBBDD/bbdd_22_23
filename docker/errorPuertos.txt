@@ -1,0 +1,13 @@
+Si os sale un error de que el puerto está ocupado con un mensaje con 0.0.0.0 PORT
+
+abrid la consola como administradores y ejecutar estos tres comandos:
+
+net stop winnat
+
+
+
+netsh int ipv4 add excludedportrange protocol=tcp startport=50323 numberofports=1
+
+
+
+net start winnat

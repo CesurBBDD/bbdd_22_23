@@ -15,3 +15,4 @@ nombre varchar(100) not null
 
 )
 
+PRINT 'YA HE ACABADO'

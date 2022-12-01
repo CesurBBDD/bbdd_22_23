@@ -10,11 +10,12 @@ GO
 --Ejercicio 1
 CREATE TABLE Abogado(
 id int IDENTITY(1,1) PRIMARY KEY,
-nombre varchar(100) not null
+nombre varchar(100) not null,
+fecha_nacimiento datetime null
 )
 
 --Ejercicio 2
---Bernat, he interpretado esto como una 1N
+--Bernatablat, he interpretado esto como una 1N
 
 create table asunto(
     id int primary KEY,
